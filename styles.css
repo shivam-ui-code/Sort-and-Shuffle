@@ -1,0 +1,130 @@
+body{
+    border:0.4em solid black;
+    border-radius: 0.4em;
+    font-family: sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.6em;
+    font-size: 1.5em;
+}
+
+.button-section {
+    text-align: center;
+    padding: 0.8em;
+}
+
+.button-section button {
+    background: #72C3DC;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 0px 0.2em #2B8EAD;
+    width: 12%;
+    box-sizing: content-box;
+}
+
+.number-section span {
+    display: block;
+    margin: 0.3em;
+    text-align: center;
+    background: #EFEFEF;
+    padding: 0.6em;
+}
+
+.number-section span:last-child {
+    margin-bottom: 0.6em;
+}
+
+footer{
+    text-align: center;
+    padding: 0.8em;
+}
+
+.one {
+    border-left: 0.3em solid #6F98A8;
+}
+
+.two {
+    border-left: 0.3em solid #2B8EAD;
+}
+
+.three {
+    border-left: 0.3em solid #2F454E;
+}
+
+.four {
+    border-left: 0.3em solid #BFBFBF;
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        border:none;
+    }
+    
+    header {
+        background-color:white;
+        color:black;
+        margin: 0;
+    }
+    main {
+        display:flex;
+        flex-direction: row-reverse;
+        background: #EFEFEF;
+        border-top: 0.5em solid #BFBFBF;
+    }
+    .button-section {
+        width: 20%;
+    }
+    .number-section {
+        width: 80%;
+    }
+
+    .number-section span {
+    margin: 0;
+    text-align: center;
+    padding: .6em 0.30em;
+    display: inline-block;
+    width: 33%;
+    background: none;
+    box-sizing: border-box;
+    font-size: 4em;
+    color: white;
+    }
+.button-section{
+    margin-top: 1em;
+}
+    .button-section button {
+        box-shadow: 0px 0.2em #2B8EAD;
+    border-radius: 0.3em;
+    display: block;
+    margin: 0.6em auto;
+    width: 80%;
+    }
+    
+
+    .number-section span.one {
+        background-color:#6F98A8;
+    }
+    
+    .number-section span.two {
+        background-color:#2B8EAD;
+    }
+    
+    .number-section span.three {
+        background-color:#2F454E;
+    }
+    
+    .number-section span.four {
+        background-color:#BFBFBF;
+    }
+
+    footer {
+        background: #EFEFEF;
+        padding: 0 0em 2em 0;
+    }
+    
+}
